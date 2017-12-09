@@ -1,0 +1,24 @@
+//First Init
+$ git config --global user.name "John Doe"
+$ git config --global user.email john@me.com
+
+//Checing status
+$ git status
+ [On branch master
+ Initial commit
+ nothing to commit (create/copy files and use
+ "git add" to track)]
+ 
+ 
+//Connection to remote repo
+1/Если локально репо еще нет:
+$ git clone https://repo/url/name.git
+$ cd ./repo/
+Будет создана папка repo в текущей папке, не забудьте в нее перейти
+ 
+2/Если локально репо уже есть:
+$ git remote add origin https://uname@bitbucket.org/uname/repo.git
+$ git push
+Будет подключен удаленный репо с именем origin. Не забудьте опубликовать туда текущие изменения.
+ 
+ 
