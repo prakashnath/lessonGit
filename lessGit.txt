@@ -1,6 +1,6 @@
 //First Init
-$ git config --global user.name "John Doe"
-$ git config --global user.email john@me.com
+$ git config --global user.name "User Name"
+$ git config --global user.email user@e.mail
 
 //Checing status
 $ git status
@@ -40,14 +40,14 @@ unstage)
  //History
  $ git log
   commit bd5b599b339d565f0d7c4189c6ed7b8c53bfe579
-  Author: Dima Fitiskin <dfitiskin@gmail.com>
-  Date:   Sat Mar 12 01:18:54 2016 +0300
+  Author: XXX
+  Date:   Sat Mar 12 01:18:54 2021 +0300
       Реализован базовый функционал роутера и прототипа
   контроллера. Доработан запрос, чтобы он мог хранить параметры
   и сущности
   commit 5ca51603d11133deecef39b57f9466310699b88d
-  Author: Dima Fitiskin <dfitiskin@gmail.com>
-  Date:   Sat Feb 20 10:29:35 2016 +0300
+  Author: XXX
+  Date:   Sat Feb 20 10:29:35 2021 +0300
       Вынес стили из шаблона
 :
 
